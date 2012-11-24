@@ -1,0 +1,13 @@
+nav { width: 150px; margin-left: 0 !important; float: left; margin-right: 20px; }
+
+nav li { margin: 0 0 2px; background: #000; font-size: 1.4em; }
+
+nav li a { display: block; padding: 5px 20px; color: #f2f2f2; text-decoration: none; }
+
+nav li a:visited { color: #f2f2f2; }
+
+nav li a:hover { color: #09f; }
+
+nav li a.active:hover { color: #f2f2f2; cursor: default; }
+
+nav li a.active { background: #f01346; }
