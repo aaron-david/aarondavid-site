@@ -100,11 +100,11 @@
       -ms-transform: rotateX(0) rotateY(0) rotateZ(0);
        -o-transform: rotateX(0) rotateY(0) rotateZ(0);
           transform: rotateX(0) rotateY(0) rotateZ(0);
-  -webkit-transition: .6s;
-     -moz-transition: .6s;
-      -ms-transition: .6s;
-       -o-transition: .6s;
-          transition: .6s;
+  -webkit-transition: .9s;
+     -moz-transition: .9s;
+      -ms-transition: .9s;
+       -o-transition: .9s;
+          transition: .9s;
 }
 .flip .front {
   -webkit-transform: translate3d(0,0,1px);
