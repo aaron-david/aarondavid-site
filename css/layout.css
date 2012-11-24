@@ -1,0 +1,49 @@
+@import url(navigation.css);
+@import url(cards.css);
+@import url(animation.css);
+
+
+/* Header */
+
+header { margin-bottom: 20px; }
+
+header #logo a { display: block; overflow: hidden; float: left; margin-right: 40px; text-indent: -999em; width: 150px; height: 140px; background: url(../img/logo-aa.png) no-repeat; }
+
+header .my-name { display: block; overflow: hidden; position: relative; top: 34px; }
+
+header .my-name h1 { line-height: 0; }
+
+/* Navigation */
+
+nav { width: 150px; float: left; }
+
+nav li { margin: 2px 0; background: #000; font-size: 1.4em; }
+
+nav li a { display: block; padding: 5px 20px; color: #f2f2f2; text-decoration: none; }
+
+nav li a:visited { color: #f2f2f2; }
+
+nav li a:hover { color: #09f; }
+
+nav li a.active:hover { color: #f2f2f2; cursor: default; }
+
+nav li a.active { background: #f01346; }
+
+/* JOB TILES */
+
+.job-section > h1 { color: #f01346; font-size: 24px; }
+
+.job-box { display: block; border-radius: 2px; overflow: hidden; margin-bottom: 20px; }
+
+.job-box img { width:100%; }
+
+.job-box .description {
+	position: relative;
+	top: -80px;
+	padding: 0 20px;
+	background: black;
+	color: #f2f2f2;
+	display: none;
+	overflow: hidden;
+	clear: both;
+}

@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200);
-@import url(animation.css);
+@import url(layout.css);
 
 /*
  * HTML5 Boilerplate
@@ -35,9 +35,9 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #555; }
+html, button, input, select, textarea { font-family: sans-serif; color: #f2f2f2; }
 
-body { margin: 0; font-size: 1em; font-family: 'Titillium Web', sans-serif; line-height: 1.4; background: #dedede; }
+body { margin: 0; font-size: 1em; font-family: 'Titillium Web', sans-serif; font-weight: 200; line-height: 1.4; background: #282828; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -45,17 +45,17 @@ body { margin: 0; font-size: 1em; font-family: 'Titillium Web', sans-serif; line
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #f70047; color: #fff; text-shadow: none; }
-::selection { background: #f70047; color: #fff; text-shadow: none; }
+::-moz-selection { background: #09f; color: #fff; text-shadow: none; }
+::selection { background: #09f; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #09f; }
+a:visited { color: #09f; }
+a:hover { color: #fff; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -222,20 +222,6 @@ td { vertical-align: top; }
    ========================================================================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
@@ -294,57 +280,3 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-
-/* Header */
-
-header #logo a { display: block; overflow: hidden; float: left; margin-right: 40px; text-indent: -999em; width: 150px; height: 140px; background: url(../img/logo-aa.png) no-repeat; }
-
-header .my-name { display: block; overflow: hidden; position: relative; top: 34px; }
-
-header .my-name h1 { line-height: 0; }
-
-/* JOB TILES */
-
-.job-section > h1 { color: #f01346; font-size: 24px; }
-
-.job-box { display: block; border-radius: 2px; overflow: hidden; margin-bottom: 20px; }
-
-.job-box img { width:100%; }
-
-.job-box .description {
-	position: relative;
-	top: -80px;
-	padding: 0 20px;
-	background: black;
-	color: #f2f2f2;
-	display: none;
-	overflow: hidden;
-	clear: both;
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
