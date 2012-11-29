@@ -6,9 +6,101 @@
   http://wait-till-i.com/license.txt
 */
 
+/*
+	Content formatting for normal tiles
+*/
+
+.flip .back i, .flip .back b {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.flip .back .name,
+.flip .back .description,
+ .flip .back .go_zoom{
+	display: block;
+}
+
+.flip .back .name {
+	font-size: 1.2em;
+	padding: 10px 30px 10px 15px;
+}
+	
+.flip .back .description {
+	font-size: .8em;
+	padding: 0 15px;
+}
+
+.flip .back a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+.flip .back a:hover {}
+
+/*
+	Zoom tile button
+*/
+
+.flip .back .go_zoom {
+	background: url(../img/zoom_flip.png) 0 -37px;
+	position: absolute;
+	
+	width:  37px;
+	height: 37px;
+	margin-left: 113px;
+	
+	display: block;
+	overflow: hidden;
+	text-indent: -999em;
+}
+
+.flip .back .go_zoom:hover {
+	background-position: 0 0;
+}
+
+/*
+	Content formatting for big tiles
+*/
+
+.flip.tile_2x2 .name,
+.flip.tile_2x3 .name,
+.flip.tile_3x3 .name { font-size: 1.8em; }
+
+.flip.tile_2x2 .description,
+.flip.tile_2x3 .description,
+.flip.tile_3x3 .description { font-size: 1em; }
+
+.flip.tile_2x2 .back .go_zoom,
+.flip.tile_2x3 .back .go_zoom {
+	background: url(../img/zoom_big_flip.png) 0 -47px;
+	width: 47px;
+	height: 47px;
+	margin-left: 258px;
+}
+
+.flip.tile_2x2 .back .go_zoom:hover,
+.flip.tile_2x3 .back .go_zoom:hover {
+	background-position: 0 0;
+}
+
+/*
+	Visual style
+*/
+
 .flip .front img,
 .flip .front,
-.flip .back {  border-radius: 3px; }
+.flip .back {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	    -ms-border-radius: 3px;
+	     -o-border-radius: 3px;
+	        border-radius: 3px;
+}
+
+/*
+	Flip cards sizes
+*/
 
 .flip .front,
 .flip .back,
