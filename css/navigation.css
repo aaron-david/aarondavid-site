@@ -8,6 +8,16 @@ nav li a:visited { color: #f2f2f2; }
 
 nav li a:hover { color: #09f; }
 
-nav li a.active:hover { color: #f2f2f2; cursor: default; }
+#pasta nav li.pasta a:hover,
+#web nav li.web a:hover,
+#print nav li.print a:hover,
+#brand nav li.brand a:hover,
+#mobile nav li.mobile a:hover,
+#about nav li.about a:hover { color: #f2f2f2; cursor: default; }
 
-nav li a.active { background: #f01346; }
+#pasta nav li.pasta a,
+#web nav li.web a,
+#print nav li.print a,
+#brand nav li.brand a,
+#mobile nav li.mobile a,
+#about nav li.about a { background: #f01346; }

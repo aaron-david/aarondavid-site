@@ -9,30 +9,16 @@
 	<?php include 'inc-head.php';?>
 	<title>Aaron David</title>
 </head>
-<body>
+<body id="about">
 	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
 	chromium.org/developers/how-tos/chrome-frame-getting-started -->
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 	<div class="container_12">
-		<header class="clearfix">
-			<h1 id="logo"><a href="/" title="Aaron">Aaron</a></h1>
-			<div id="my-name">
-				<h1>Aaron David</h1>
-				<span>Designer / São Paulo, Brasil<br />Portfólio online</span>
-			</div>
-		</header>
 
-		<nav role="navigation" class="grid_2">
-			<ul>
-				<li><a title="Shuffle of the bests" href="index.html">pasta</a></li>
-				<li><a title="Pixels por pixel" href="web.html">web</a></li>
-				<li><a title="Ctrl + P" href="print.html">print</a></li>
-				<li><a title="RG, por favor" href="brand.html">brand</a></li>
-				<li><a title="Usabilidade de bolso" href="mobile.html">mobile</a></li>
-				<li><a class="active" title="Call me, maybe" href="bio.html">about</a></li>
-			</ul>
-		</nav>
+		<?php include 'inc-header.php';?>
+
+		<?php include 'inc-nav.php';?>
 
 		<div role="main" class="grid_10">
 
